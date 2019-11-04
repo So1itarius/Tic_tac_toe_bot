@@ -75,7 +75,6 @@ def tac(bot, update):
     tmp = check_win()
     if type(tmp) == str:
         update.message.reply_text(f"{tmp} выиграл!")
-        board = list(range(1, 10))
         return ConversationHandler.END
     else:
         update.message.reply_text(f"Куда поставим X?")
