@@ -70,7 +70,7 @@ def tac(bot, update):
         board[player_answer - 1] = "O"
         draw_board(bot, update)
     else:
-        update.message.reply_text("Эта клеточка уже занята")
+        update.message.reply_text("Эта клеточка уже занята,выберите другую")
         return f"CHOOSING_O"
     tmp = check_win()
     if type(tmp) == str:
