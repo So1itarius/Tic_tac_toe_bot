@@ -1,6 +1,6 @@
 certifi==2022.12.7
 cffi==1.13.1
-cryptography==3.3.2
+cryptography==42.0.4
 future==0.18.2
 pycparser==2.19
 python-telegram-bot==11.1.0
